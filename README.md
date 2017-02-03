@@ -7,15 +7,17 @@ download [Vagrant](https://www.vagrantup.com/docs/installation/)
 
 download [Virtual Box](https://www.virtualbox.org/)
 
-once installed, cd into vagrant directory and run `vagrant up` to start running the virtual machine 
+`cd` into the `swiss-tournament` directory
+
+run `vagrant up` to start running the virtual machine 
 
 `vagrant ssh` to log into the vm 
 
-`cd /vagrant/tournament` to access the necessary files
+`cd /vagrant/tournament/` to access the necessary files
 
 `psql -f tournament.sql` to create the database and tables
 
-`python tournament.py` to see the program pass all the tests with flying colors. 
+`python tournament_test.py` to see the program pass all the tests with flying colors. 
 
 
 
